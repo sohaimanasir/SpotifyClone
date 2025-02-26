@@ -1,0 +1,36 @@
+.popular-artist {
+  padding: 20px;
+  color: white;
+}
+
+.artist-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.artist-slider ul {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  overflow-x: auto;
+  padding: 10px 0;
+}
+
+.artist-slider li {
+  text-align: center;
+  background: #121212;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.artist-slider img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.artist-slider p {
+  margin-top: 5px;
+  font-weight: bold;
+}
