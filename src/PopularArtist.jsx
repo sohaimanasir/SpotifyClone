@@ -1,8 +1,9 @@
 import "./PopularArtist.css";
 import { useState } from "react";
+import { PlayIcon } from "./Icons.jsx";
 
 function PopularArtist() {
-  const [artist] = useState([
+  const [artists] = useState([
     { name: "Pritam", image: "/pritam.jpg" },
     { name: "Atif Aslam", image: "/atif.jpg" },
     { name: "Anuv Jain", image: "/anuv.jpg" },
@@ -15,16 +16,25 @@ function PopularArtist() {
   return (
     <div className="popular-artist">
       <div className="artist-header">
-        <h1>Popular Artists</h1>
-        <p>Show all</p>
+        <h2>Popular Artists</h2>
+        <button className="show-all">Show all</button>
       </div>
       <div className="artist-slider">
         <ul>
-          {artist.map((a, index) => (
+          {artists.map((artist, index) => (
             <li key={index}>
-              <img src={a.image} alt={a.name} />
-              <p>{a.name}</p>
-              <span>Artist</span>
+              <div className="artist-card">
+                <div className="artist-image-container">
+                  <img src={artist.image} alt={artist.name} />
+                  <div className="play-button-container">
+                    <button className="play-button">
+                      <PlayIcon />
+                    </button>
+                  </div>
+                </div>
+                <p className="artist-name">{artist.name}</p>
+                <span className="artist-label">Artist</span>
+              </div>
             </li>
           ))}
         </ul>
@@ -34,4 +44,3 @@ function PopularArtist() {
 }
 
 export default PopularArtist;
-
