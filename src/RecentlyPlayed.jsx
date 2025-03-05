@@ -7,24 +7,28 @@ function RecentlyPlayed() {
     {
       title: "Tum Hi Ho",
       artist: "Arijit Singh",
-      image: "/src/assets/tumhiho.jpg",
+      image: "/public/assets/tumhiho.jpg",
     },
     {
       title: "Pasoori",
       artist: "Ali Sethi, Shae Gill",
-      image: "src/assets/pasoori.jpg",
+      image: "/public/assets/pasoori.jpg",
     },
     {
       title: "Kesariya",
       artist: "Pritam, Arijit Singh",
-      image: "src/assets/kesariya.jpg",
+      image: "/public/assets/kesariya.jpg",
     },
     {
       title: "Raatan Lambiyan",
       artist: "Tanishk Bagchi, Jubin Nautiyal",
-      image: "src/assets/ratanlambiyan.jpg",
+      image: "/public/assets/ratanlambiyan.jpg",
     },
-    { title: "Excuses", artist: "AP Dhillon", image: "src/assets/excuses.jpg" },
+    {
+      title: "Excuses",
+      artist: "AP Dhillon",
+      image: "/public/assets/excuses.jpg",
+    },
   ]);
 
   return (

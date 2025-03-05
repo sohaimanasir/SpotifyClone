@@ -7,27 +7,27 @@ function FeaturedPlaylists() {
     {
       name: "Top Hits Hindi",
       description: "The hottest tracks in India right now",
-      image: "src/assets/tophindihits.jpg",
+      image: "public/assets/tophindihits.jpg",
     },
     {
       name: "Punjabi 101",
       description: "Ultimate Punjabi hits",
-      image: "src/assets/punjabi101.jpg",
+      image: "public/assets/punjabi101.jpg",
     },
     {
       name: "Bollywood Butter",
       description: "Smooth hits from Bollywood",
-      image: "src/assets/bollybutter.jpg",
+      image: "public/assets/bollybutter.jpg",
     },
     {
       name: "Indie India",
       description: "Best of independent Indian artists",
-      image: "src/assets/indieindia.jpg",
+      image: "public/assets/indieindia.jpg",
     },
     {
       name: "Trending Now",
       description: "What's trending in India",
-      image: "src/assets/trendingnow.jpg",
+      image: "public/assets/trendingnow.jpg",
     },
   ]);
 
