@@ -4,13 +4,13 @@ import { PlayIcon } from "./Icons.jsx";
 
 function PopularArtist() {
   const [artists] = useState([
-    { name: "Pritam", image: "/pritam.jpg" },
-    { name: "Atif Aslam", image: "/atif.jpg" },
-    { name: "Anuv Jain", image: "/anuv.jpg" },
-    { name: "Arijit Singh", image: "/arijit.jpg" },
-    { name: "Karan Aujla", image: "/karan.jpg" },
-    { name: "Shubh", image: "/shubh.jpg" },
-    { name: "AP Dhillon", image: "/ap.jpg" },
+    { name: "Pritam", image: "/src/assets/Pritam.jpeg" },
+    { name: "Atif Aslam", image: "/src/assets/atifaslam.jpg" },
+    { name: "Anuv Jain", image: "/src/assets/anuvjain.jpg" },
+    { name: "Arijit Singh", image: "/src/assets/arjitsingh.jpg" },
+    { name: "Karan Aujla", image: "/src/assets/karanaujla.jpg" },
+    { name: "Shubh", image: "/src/assets/shubh.jpg" },
+    { name: "AP Dhillon", image: "/src/assets/apdhillon.jpg" },
   ]);
 
   return (

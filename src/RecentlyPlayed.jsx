@@ -4,15 +4,27 @@ import { PlayIcon } from "./Icons.jsx";
 
 function RecentlyPlayed() {
   const [recentTracks] = useState([
-    { title: "Tum Hi Ho", artist: "Arijit Singh", image: "/track1.jpg" },
-    { title: "Pasoori", artist: "Ali Sethi, Shae Gill", image: "/track2.jpg" },
-    { title: "Kesariya", artist: "Pritam, Arijit Singh", image: "/track3.jpg" },
+    {
+      title: "Tum Hi Ho",
+      artist: "Arijit Singh",
+      image: "/src/assets/tumhiho.jpg",
+    },
+    {
+      title: "Pasoori",
+      artist: "Ali Sethi, Shae Gill",
+      image: "src/assets/pasoori.jpg",
+    },
+    {
+      title: "Kesariya",
+      artist: "Pritam, Arijit Singh",
+      image: "src/assets/kesariya.jpg",
+    },
     {
       title: "Raatan Lambiyan",
       artist: "Tanishk Bagchi, Jubin Nautiyal",
-      image: "/track4.jpg",
+      image: "src/assets/ratanlambiyan.jpg",
     },
-    { title: "Excuses", artist: "AP Dhillon", image: "/track5.jpg" },
+    { title: "Excuses", artist: "AP Dhillon", image: "src/assets/excuses.jpg" },
   ]);
 
   return (
