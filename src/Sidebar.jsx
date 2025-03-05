@@ -10,7 +10,7 @@ function BodySection() {
       <div className="spotify-main-section">
         <div className="sidebar-section">
           <div className="logo">
-            <img src="\src\assets\logo.jpg" alt="" />
+            <img src="\public\assets\logo.jpg" alt="" />
           </div>
           <div className="sidebar-nav">
             <ul>
